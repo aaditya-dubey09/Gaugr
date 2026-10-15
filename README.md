@@ -1,8 +1,17 @@
 # Gaugr TUI
 
+![Python 3.13+](https://img.shields.io/badge/Python-3.13%2B-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
+![Rich UI](https://img.shields.io/badge/UI-Rich-ff69b4)
+![Local LLM Benchmarking](https://img.shields.io/badge/Focus-Local%20LLM%20Benchmarking-111111)
+
 Gaugr TUI is a terminal-based AI engine benchmark and local model performance monitor built with Python and Rich. It is designed for quick, repeatable benchmarking of local inference endpoints such as Ollama while keeping an eye on system health in real time.
 
 Created for **MLH Global Hack Week** with **GitHub Copilot**.
+
+## Preview
+
+![Gaugr preview screenshot](assets/gaugr-ss.png)
 
 ## Features
 
@@ -59,3 +68,10 @@ Enter your prompt, set the model name, and run the benchmark.
 - The app is optimized for local inference endpoints that expose an Ollama-style `generate` API.
 - Hardware metrics are captured at launch and shown in the summary banner.
 - If your system does not expose thermal sensors through `psutil`, thermals may appear as `n/a`.
+
+## Project Docs
+
+- [CONTRIBUTING.md](CONTRIBUTING.md) - contribution workflow, branch guidance, and local development setup.
+- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) - community standards for participation and review.
+- [SECURITY.md](SECURITY.md) - vulnerability disclosure process and reporting contact.
+- [benchmark_report.md](benchmark_report.md) - example output from a benchmark run, including model metrics and preview text.
