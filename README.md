@@ -1,4 +1,4 @@
-# Neuromancer TUI
+# Gaugr TUI
 
 Neuromancer TUI is a terminal-based AI engine benchmark and local model performance monitor built with Python and Rich. It is designed for quick, repeatable benchmarking of local inference endpoints such as Ollama while keeping an eye on system health in real time.
 
