@@ -74,4 +74,3 @@ Enter your prompt, set the model name, and run the benchmark.
 - [CONTRIBUTING.md](CONTRIBUTING.md) - contribution workflow, branch guidance, and local development setup.
 - [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) - community standards for participation and review.
 - [SECURITY.md](SECURITY.md) - vulnerability disclosure process and reporting contact.
-- [benchmark_report.md](benchmark_report.md) - example output from a benchmark run, including model metrics and preview text.
