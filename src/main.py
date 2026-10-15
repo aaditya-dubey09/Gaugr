@@ -11,7 +11,7 @@ from rich.prompt import Prompt
 from rich.table import Table
 from rich.text import Text
 
-from utils import (
+from src.utils import (
     get_installed_models,
     get_hardware_snapshot,
     format_bytes,
